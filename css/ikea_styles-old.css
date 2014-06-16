@@ -1,0 +1,357 @@
+img         
+{ border: 0}
+
+body        
+{width:760px; margin: 0; padding: 0;font-family: Arial, Helvetica, Tahoma, sans-serif;}
+
+a           
+{ outline:none; -moz-outline: none ; text-decoration: none; color:#35ad4a;}
+
+.clear      
+{ float: none; clear:both}
+
+
+
+/* For the entire page so that it will be aligned to almost center */
+#home
+{width:760px;margin:0 auto;}
+
+#click_logo{
+	margin:20px;
+	cursor:pointer;
+}
+
+#ikea_logo{
+	margin:0 0 30px 200px;	
+	cursor:pointer;
+}
+
+
+/* For the Landing View */
+#background_landing{
+	position: relative;
+	width:760px;
+	height:425px;
+	background:url(../images/landing_bg.jpg);	
+	padding-top:2px;
+}
+.landing	
+{
+	position: relative;
+	width:567px;
+	height:425px;
+	margin:0 auto;
+	display:none;
+}
+
+#arrow_left{
+	position: absolute;
+	top: 190px;
+	left:20px;	
+}
+
+#arrow_right{
+	position: absolute;
+	top: 190px;
+	right:20px;	
+}
+/* Div tags inside the photo*/
+#bowl
+{
+	top: 245px;
+	left: 55px;
+}
+#sofa
+{
+	top: 208px;
+	left: 258px;
+}
+#lamp
+{	
+	top:163px;
+	left:410px;
+}
+/*
+.apply_overlay
+{
+	background-color:dodgerBlue;
+	opacity: 0.4;
+	border: 1px solid white;
+}
+*/
+.tag_items
+{
+	position:absolute;
+	height: 57px;
+	width:57px;	
+	cursor:pointer;
+	/*modified*/
+	background-color:dodgerBlue;
+	border: 1px solid white;
+}
+
+.tag_items_trans
+{
+	position:absolute;
+	height: 57px;
+	width:57px;	
+	cursor:pointer;
+	opacity:0.5;
+	background-color:dodgerBlue;
+	border: 1px solid white;
+}
+
+.tag_items_rect
+{
+	position:absolute;
+	cursor:pointer;
+}
+/* SPREAD BOXES*/
+#sboxes
+{
+	position:relative;
+	width:760px; 
+	height:60px;
+}
+
+#box1
+{
+	float:left; 
+	width:155px; 
+	height:33px; 
+	margin:5px 5px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:justify;	
+	font-size:14px;
+	cursor:pointer;
+	padding:8px
+}
+
+#box2
+{
+	float:left; 
+	width:150px; 
+	height:33px; 
+	margin:5px 0px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:justify;	
+	font-size:14px;
+	cursor:pointer;
+	padding:8px;
+	
+}
+
+#box3
+{
+	float:left; 
+	width:138px;
+	height:33px; 
+	margin:5px 5px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:justify;	
+	font-size:14px;
+	cursor:pointer;
+	padding:8px;
+}
+
+#box4
+{
+	float:left; 
+	width:228px;
+	/*width:246px;*/
+	height:33px; 
+	margin:5px 0.9px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:justify;	
+	font-size:14px;
+	cursor:pointer;
+	padding:8px;
+}
+
+.s1
+{
+	padding:4px;
+	color:rgb(255,204,51);
+}
+
+.s2
+{	
+	padding:4px;
+	color:white;
+}
+
+/* Buttons Inside Table */
+#btn_table
+{
+	background-color:rgb(255,204,51);
+	margin-left:0px;
+	margin-right: 0px;
+}
+
+.bot_but	
+{
+	text-align: left;
+	font-family:verdana;
+}
+/* Copyright */
+
+#footer
+{
+	margin-top: 10px;
+}
+
+#copyright
+{
+	margin-left:20px;
+	color:grey;
+	font-size:10px;
+	font-family:arial;
+}
+/* Terms and Condition*/
+#terms_condition 	
+{
+	float:right;
+	margin-right:9px;
+	color: grey;
+	font-size:10px;
+	font-family:arial;
+}
+
+/* Sharing Options*/
+
+#tbl_1
+{
+	margin-left:5px;
+	margin-top:3px;
+}
+#share_options
+{
+	/*
+	background-color: rgb(255,204,51);
+	width:152px;
+	height: 135px;
+	margin: 4px;
+	*/
+	background-color:white;
+	
+	
+}
+
+.so
+{	
+	cursor:pointer;
+	color:rgb(0,51,153);
+	font-size: 12px;
+	font-family: arial;
+	width:130px;
+	padding:4px;
+	border-bottom-style:solid 1px black;
+}
+
+.active{
+	cursor:pointer;
+	}
+
+.notActive{
+	cursor:default;
+	}
+
+.landing_overlay		{width:100%; height:100%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+						position:absolute; left:0; top:0;}
+#popupOverlay		{width:100%; height:68%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+					position:absolute; left:0; top:0;}
+.closePopUp			{ position: absolute; top: -10px; right: -10px; cursor:pointer;}
+.popUpBox			{ width: 600px; height: auto; padding: 15px 20px; position: absolute; top: 45%; left: 34%; background: #fff;
+					-moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px;
+					-moz-box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; box-shadow: 0 0 20px #ccc;
+					behavior: url("css/PIE.php") ; z-index:1001;}
+#messagePop			{width:200px;top:250px;text-align:center;}
+
+#loadingOverlay		{width:100%; height:100%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+					position:absolute; left:0; top:0;}
+#loadingPop			{width: 50px;text-align:center;top:250px;left:340px;}
+
+#winner_bar			{background:url('../images/winner_bar_bg.jpg') no-repeat;height:52px;}
+#winner_bar div		{float:left;}
+#winner_bar #label		{width:135px;height:35px;padding-top:17px;background-color:#00359b;color:white;font-family:arial;font-weight:bold;text-align:center;}
+#winner_bar .winner_box	{width:52px;height:52px;}
+#winner_bar .winner_box img	{width:40px;height:40px;margin:6px;}
+
+#instructionPop		{width:706px;height:383px;position:absolute;top:140px;left:30px;background-color:white;color:#006699;font-size: 16px;z-index:1001;}
+#instructionPop #instruction_close	{position:absolute;top:1px;right:1px;cursor:pointer;}
+#instructionPop .title	{float: left;
+						padding: 20px 15px;
+						background-color: rgb(133,133,133);
+						margin: 1px;
+						font-size: 18px;
+						font-weight: bold;
+						color: rgb(255,204,51);
+}
+#instructionPop p	{padding:0 15px;text-align:justify;font-size:14px;}
+
+#winnerPop		{font-family:Verdana;width:706px;height:488px;position:absolute;top:140px;left:30px;background-color:white;color:#006699;font-size: 16px;z-index:1001;}
+#winnerPop #winner_close	{position:absolute;top:1px;right:1px;cursor:pointer;}
+#winnerPop .title {float: left;margin: 1px;font-size: 25px;padding:18px 15px;font-weight:bold;text-decoration:underline;}
+#winnerPop p	{padding:0 15px;text-align:justify;font-weight:bold;width:600px;}
+#winnerPop #winner_list_container	{padding:0 15px;width:760px;margin-top: 40px;}
+#winnerPop #winner_list_container .winner_list	{background:url("../images/winner_list_bg.jpg");width:330px;height:50px;float:left;margin:1px 5px;}
+#winnerPop #winner_list_container .winner_list .user	{background:url("../images/winner_list_profile_bg.png");width:50px;height:50px;float:left;}
+#winnerPop #winner_list_container .winner_list .user img{width:40px;height:40px;margin:5px;}
+#winnerPop #winner_list_container .winner_list .item	{float:left;width:70px;height:50px;}
+#winnerPop #winner_list_container .winner_list .desc	{color:white;font-size:12px;margin:6px 0 0 5px; text-align:left;}
+/* float left and margin 10px*/
+
+#footer img	{cursor:pointer;float:left;margin-right:5px;}
+#footer span	{float:left;color:#c5c5c5;font-size:12px;}
+#footer span a	{color:#858585;}
+
+/* For the gif loader */
+#loader {
+	width: 50px;
+	height: 34px;
+	position: absolute;
+	margin-left: 330px;
+	top: 250px;
+	display: none;
+}
+
+#ptfwloadingOverlay		{width:100%; height:100%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+					position:absolute; left:0; top:0;}
+.testpopUpBox			{ width: 600px; height: auto; padding: 15px 20px; position: absolute; top: 45%; left: 34%; background: #fff;
+					-moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px;
+					-moz-box-shadow: 0 0 20px #ccc; -webkit-box-shadow: 0 0 20px #ccc; box-shadow: 0 0 20px #ccc;
+					behavior: url("css/PIE.php") ; z-index:1001;}
+#ptfwmessagePop		{width:400px;top:117px;left:158px;text-align:center;}
+
+#confirmationOverlay {width:100%; height:100%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+					position:absolute; left:0; top:0;}
+
+.frenlist{
+	list-style-type:none;
+	cursor:pointer;
+	padding:5px;
+}
+
+.friendsItem{
+	overflow: hidden;
+	float:left;
+	width:70px;
+	font-size:11px;
+}
+
+.checkbox{
+	
+}
+
+.closePopUpFl	{margin-top:-28px; margin-right:-30px; cursor:pointer;z-index:10000;}
+
+#termsCondPop	{width:670px;height:383px;position:absolute;top:140px;left:30px;background-color:white;color:#006699;font-size: 16px;z-index:1001;padding:20px;text-align:justify;}
+
+#termsCondOverlay{width:100%; height:68%; background:gray; opacity:0.5; filter:alpha(opacity=50); z-index:1000;
+					position:absolute; left:0; top:0;}
+#termsCondClose{margin-left:640px; position:absolute;cursor:pointer;top:1px;}
+.termsListItems{text-align: justify;}
